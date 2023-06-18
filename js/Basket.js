@@ -2,7 +2,7 @@
 
 let local = JSON.parse(localStorage.getItem("basket"));
 
-if (local.length === 0) {
+if ((local === null) || (local.length === 0)) {
   document.querySelector(".page").classList.add("d-none");
   let alerts = "";
   alerts = `
