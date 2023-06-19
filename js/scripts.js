@@ -3,7 +3,7 @@
 let products = [
   {
     id: 1,
-    img: "../assets/img/niva.jpg",
+    img: "/assets/img/niva.jpg",
     name: "LADA (VAZ) Niva",
     price: 18300,
     count: 1,
@@ -122,7 +122,6 @@ add.forEach((btn) => {
     
     AddLocal();
     GetLocal();
-    console.log(prodData);
   });
 });
 

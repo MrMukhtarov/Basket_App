@@ -86,7 +86,6 @@ function Remove() {
     item.addEventListener("click", () => {
       let id = item.parentElement.parentElement.firstElementChild.id;
       let countCar = document.querySelector("#quantity");
-      console.log(id);
 
       let filter = local.filter((i) => i.Id !== id);
 
